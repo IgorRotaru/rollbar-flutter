@@ -16,7 +16,11 @@ dependencies:
   connectivity_plus: ^2.3.6
   sqlite3_flutter_libs: ^0.5.9
   rollbar_common: ^1.1.0
-  rollbar_dart: ^1.1.0
+  rollbar_dart:
+    git:
+      url: git@github.com:IgorRotaru/rollbar-flutter.git
+      path: rollbar_dart/
+      ref: 1.1.1
 
 dependency_overrides:
   rollbar_common:
